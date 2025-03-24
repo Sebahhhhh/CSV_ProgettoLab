@@ -3,129 +3,210 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
-        // Filess
+        Scanner scanner = new Scanner(System.in);
         String fileCSV = "src/Rocchi_Biblioteche.csv";
         String fileCSVModificato = "src/Rocchi_Biblioteche_modified.csv";
-
-        // Separatore che c'è nei file
         String separatoreCSV = ",";
-
+        int lunghezzaMassimaRecord = 0;
         Random casuale = new Random();
 
-        // 1  Aggiunta dei campi "miovalore" e "deleted"
-        try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSV));
-             BufferedWriter scrittore = new BufferedWriter(new FileWriter(fileCSVModificato))) {
+        BufferedReader lettore = null;
+        BufferedWriter scrittore = null;
 
-            String riga;
-            boolean primaRiga = true;
+        while (true) {
+            System.out.println("Scegli un'operazione:");
+            System.out.println("1. Aggiungere campi 'miovalore' e 'deleted'");
+            System.out.println("2. Contare il numero di campi per record");
+            System.out.println("3. Calcolare la lunghezza massima dei record e dei campi");
+            System.out.println("4. Rendere fissa la dimensione dei record");
+            System.out.println("5. Aggiungere un record in coda");
+            System.out.println("6. Visualizzare tre campi significativi");
+            System.out.println("7. Ricercare un record per campo chiave");
+            System.out.println("8. Modificare un record");
+            System.out.println("9. Cancellare logicamente un record");
+            System.out.println("10. Creare un file HTML con i dati del CSV");
+            System.out.println("0. Uscire");
 
-            while ((riga = lettore.readLine()) != null) {
-                if (primaRiga) {
-                    scrittore.write(riga + separatoreCSV + "miovalore" + separatoreCSV + "deleted");
-                    primaRiga = false;
-                } else {
-                    int miovalore = 10 + casuale.nextInt(11);
-                    scrittore.write(riga + separatoreCSV + miovalore + separatoreCSV + "false");
-                }
-                scrittore.newLine();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            int scelta = scanner.nextInt();
+            scanner.nextLine();
 
-        // 2 Conteggio del numero di campi per ogni record
-        try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSVModificato))) {
-            String riga;
-            while ((riga = lettore.readLine()) != null) {
-                String[] campi = riga.split(separatoreCSV);
-                System.out.println("Numero di campi: " + campi.length);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            try {
+                switch (scelta) {
+                    case 1:
+                        lettore = new BufferedReader(new FileReader(fileCSV));
+                        scrittore = new BufferedWriter(new FileWriter(fileCSVModificato));
+                        String riga;
+                        boolean primaRiga = true;
+                        while ((riga = lettore.readLine()) != null) {
+                            if (primaRiga) {
+                                scrittore.write(riga + separatoreCSV + "miovalore" + separatoreCSV + "deleted");
+                                primaRiga = false;
+                            } else {
+                                int miovalore = 10 + casuale.nextInt(11);
+                                scrittore.write(riga + separatoreCSV + miovalore + separatoreCSV + "false");
+                            }
+                            scrittore.newLine();
+                        }
+                        System.out.println("Campi aggiunti con successo.");
+                        break;
 
-        // 3 Calcolo della lunghezza massima dei record e di ogni campo
-        int lunghezzaMassimaRecord = 0;
-        int[] massimeLunghezzeCampi = null;
-        try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSVModificato))) {
-            String riga;
-            while ((riga = lettore.readLine()) != null) {
-                String[] campi = riga.split(separatoreCSV);
+                    case 2:
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        while ((riga = lettore.readLine()) != null) {
+                            String[] campi = riga.split(separatoreCSV);
+                            System.out.println("Numero di campi: " + campi.length);
+                        }
+                        break;
 
-                if (massimeLunghezzeCampi == null) {
-                    massimeLunghezzeCampi = new int[campi.length];
-                }
+                    case 3:
+                        int[] massimeLunghezzeCampi = null;
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        while ((riga = lettore.readLine()) != null) {
+                            String[] campi = riga.split(separatoreCSV);
+                            if (massimeLunghezzeCampi == null) {
+                                massimeLunghezzeCampi = new int[campi.length];
+                            }
+                            lunghezzaMassimaRecord = Math.max(lunghezzaMassimaRecord, riga.length());
+                            for (int i = 0; i < campi.length; i++) {
+                                massimeLunghezzeCampi[i] = Math.max(massimeLunghezzeCampi[i], campi[i].length());
+                            }
+                        }
+                        System.out.println("Lunghezza massima dei record: " + lunghezzaMassimaRecord);
+                        System.out.println("Lunghezze massime dei campi: " + Arrays.toString(massimeLunghezzeCampi));
+                        break;
 
-                lunghezzaMassimaRecord = Math.max(lunghezzaMassimaRecord, riga.length());
+                    case 4:
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        scrittore = new BufferedWriter(new FileWriter(fileCSVModificato));
+                        while ((riga = lettore.readLine()) != null) {
+                            int spaziDaAggiungere = lunghezzaMassimaRecord - riga.length();
+                            StringBuilder rigaFissa = new StringBuilder(riga);
+                            for (int i = 0; i < spaziDaAggiungere; i++) {
+                                rigaFissa.append(" ");
+                            }
+                            scrittore.write(rigaFissa.toString());
+                            scrittore.newLine();
+                        }
+                        System.out.println("Dimensione dei record resa fissa.");
+                        break;
 
-                for (int i = 0; i < campi.length; i++) {
-                    massimeLunghezzeCampi[i] = Math.max(massimeLunghezzeCampi[i], campi[i].length());
-                }
-            }
-            System.out.println("Lunghezza massima dei record: " + lunghezzaMassimaRecord);
-            System.out.println("Lunghezze massime dei campi: " + Arrays.toString(massimeLunghezzeCampi));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+                    case 5:
+                        scrittore = new BufferedWriter(new FileWriter(fileCSVModificato, true));
+                        System.out.println("Inserisci il nuovo record (campi separati da '" + separatoreCSV + "'):");
+                        String nuovoRecord = scanner.nextLine();
+                        scrittore.write(nuovoRecord);
+                        scrittore.newLine();
+                        System.out.println("Record aggiunto con successo.");
+                        break;
 
-             // 4 Inserimento di spazi per rendere fissa la dimensione di tutti i record
+                    case 6:
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        while ((riga = lettore.readLine()) != null) {
+                            String[] campi = riga.split(separatoreCSV);
+                            System.out.println("Campo 1: " + campi[0] + ", Campo 2: " + campi[1] + ", Campo 3: " + campi[2]);
+                        }
+                        break;
 
-            try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSVModificato));
-                 BufferedWriter scrittore = new BufferedWriter(new FileWriter("src/Rocchi_Biblioteche_fixed.csv"))) {
-                String riga;
-                while ((riga = lettore.readLine()) != null) {
-                    int spaziDaAggiungere = lunghezzaMassimaRecord - riga.length();
-                    StringBuilder rigaFissa = new StringBuilder(riga);
-                    for (int i = 0; i < spaziDaAggiungere; i++) {
-                        rigaFissa.append(" ");
-                    }
-                    scrittore.write(rigaFissa.toString());
-                    scrittore.newLine();
+                    case 7:
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        System.out.println("Inserisci il valore del campo chiave da cercare:");
+                        String chiave = scanner.nextLine();
+                        while ((riga = lettore.readLine()) != null) {
+                            if (riga.contains(chiave)) {
+                                System.out.println("Record trovato: " + riga);
+                            }
+                        }
+                        break;
+
+                    case 8:
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        scrittore = new BufferedWriter(new FileWriter(fileCSVModificato + ".tmp"));
+                        System.out.println("Inserisci il valore del campo chiave del record da modificare:");
+                        String chiaveModifica = scanner.nextLine();
+                        System.out.println("Inserisci il nuovo record (campi separati da '" + separatoreCSV + "'):");
+                        String nuovoValore = scanner.nextLine();
+                        while ((riga = lettore.readLine()) != null) {
+                            if (riga.contains(chiaveModifica)) {
+                                scrittore.write(nuovoValore);
+                            } else {
+                                scrittore.write(riga);
+                            }
+                            scrittore.newLine();
+                        }
+                        new File(fileCSVModificato + ".tmp").renameTo(new File(fileCSVModificato));
+                        System.out.println("Record modificato con successo.");
+                        break;
+
+                    case 9:
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        scrittore = new BufferedWriter(new FileWriter(fileCSVModificato + ".tmp"));
+                        System.out.println("Inserisci il valore del campo chiave del record da cancellare:");
+                        String chiaveCancellazione = scanner.nextLine();
+                        while ((riga = lettore.readLine()) != null) {
+                            if (riga.contains(chiaveCancellazione)) {
+                                String[] campi = riga.split(separatoreCSV);
+                                campi[campi.length - 1] = "true";
+                                scrittore.write(String.join(separatoreCSV, campi));
+                            } else {
+                                scrittore.write(riga);
+                            }
+                            scrittore.newLine();
+                        }
+                        new File(fileCSVModificato + ".tmp").renameTo(new File(fileCSVModificato));
+                        System.out.println("Record cancellato logicamente con successo.");
+                        break;
+
+                    case 10:
+                        String fileHTML = "src/biblioteche.html";
+                        scrittore = new BufferedWriter(new FileWriter(fileHTML));
+                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+
+                        scrittore.write("<!DOCTYPE html>\n");
+                        scrittore.write("<html>\n");
+                        scrittore.write("<head>\n<title>Elenco Biblioteche</title>\n</head>\n");
+                        scrittore.write("<body>\n");
+                        scrittore.write("<h1>Elenco delle Biblioteche</h1>\n");
+                        scrittore.write("<table border='1'>\n");
+
+                        boolean primaRigaHTML = true;
+                        while ((riga = lettore.readLine()) != null) {
+                            String[] campi = riga.split(separatoreCSV);
+                            scrittore.write("<tr>\n");
+                            for (String campo : campi) {
+                                if (primaRigaHTML) {
+                                    scrittore.write("<th>" + campo + "</th>\n");
+                                } else {
+                                    scrittore.write("<td>" + campo + "</td>\n");
+                                }
+                            }
+                            scrittore.write("</tr>\n");
+                            primaRigaHTML = false;
+                        }
+
+                        scrittore.write("</table>\n");
+                        scrittore.write("</body>\n");
+                        scrittore.write("</html>\n");
+                        System.out.println("File HTML creato con successo: " + fileHTML);
+                        break;
+
+                    case 0:
+                        System.out.println("Uscita dal programma.");
+                        scanner.close();
+                        return;
+
+                    default:
+                        System.out.println("Scelta non valida. Riprova.");
                 }
             } catch (IOException e) {
                 e.printStackTrace();
-            }
-            // 5 Aggiunta di un record in coda
-            try (BufferedWriter scrittore = new BufferedWriter(new FileWriter("src/Rocchi_Biblioteche_fixed.csv", true))) {
-                String nuovoRecord = "99999,99,99,IT-NEW001,Nuova Biblioteca,Specializzata,Nuova Fondazione,Nuova Categoria,20,false";
-                scrittore.write(nuovoRecord);
-                scrittore.newLine();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            // 6 Visualizzazione di tre campi significativi a scelta
-
-            try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSVModificato))) {
-                String riga;
-                while ((riga = lettore.readLine()) != null) {
-                    String[] campi = riga.split(separatoreCSV);
-                    // 3 campi a caso 1 4 e 5
-                    System.out.println("Campo 1: " + campi[0] + ", Campo 2: " + campi[3] + ", Campo 4: " + campi[4]);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            System.out.println(" ");
-        // 7 Ricerca di un record per campo chiave univoco
-        try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSVModificato))) {
-            String riga;
-            String chiaveRicerca = "IT-AL0001"; // Sostituire con la chiave da ricercare
-            boolean trovato = false;
-            while ((riga = lettore.readLine()) != null) {
-                String[] campi = riga.split(separatoreCSV);
-                if (campi[3].equals(chiaveRicerca)) { // Supponendo che il campo chiave univoco sia il quarto campo (indice 3)
-                    System.out.println("Record trovato: " + riga);
-                    trovato = true;
-                    break;
+            } finally {
+                try {
+                    if (lettore != null) lettore.close();
+                    if (scrittore != null) scrittore.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
             }
-            if (!trovato) {
-                System.out.println("Record non trovato per la chiave: " + chiaveRicerca);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
         }
-        //
     }
 }
