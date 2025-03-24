@@ -94,5 +94,38 @@ public class Main {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            // 6 Visualizzazione di tre campi significativi a scelta
+
+            try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSVModificato))) {
+                String riga;
+                while ((riga = lettore.readLine()) != null) {
+                    String[] campi = riga.split(separatoreCSV);
+                    // 3 campi a caso 1 4 e 5
+                    System.out.println("Campo 1: " + campi[0] + ", Campo 2: " + campi[3] + ", Campo 4: " + campi[4]);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.out.println(" ");
+        // 7 Ricerca di un record per campo chiave univoco
+        try (BufferedReader lettore = new BufferedReader(new FileReader(fileCSVModificato))) {
+            String riga;
+            String chiaveRicerca = "IT-AL0001"; // Sostituire con la chiave da ricercare
+            boolean trovato = false;
+            while ((riga = lettore.readLine()) != null) {
+                String[] campi = riga.split(separatoreCSV);
+                if (campi[3].equals(chiaveRicerca)) { // Supponendo che il campo chiave univoco sia il quarto campo (indice 3)
+                    System.out.println("Record trovato: " + riga);
+                    trovato = true;
+                    break;
+                }
+            }
+            if (!trovato) {
+                System.out.println("Record non trovato per la chiave: " + chiaveRicerca);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        //
     }
 }
