@@ -1,100 +1,99 @@
-Comune,Provincia,Regione,Codice isil,Denominazione,Tipologia funzionale,Denominazione ente,Tipologia amministrativa,Indirizzo,Frazione,CAP
-84001,84,19,IT-AG0001,Biblioteca della Soprintendenza per i beni culturali e ambientali Pirro Marconi,Specializzata,Regione siciliana. Soprintendenza per i beni culturali e ambientali,Regione,Contrada S. Nicola,,92100
-84001,84,19,IT-AG0005,Biblioteca dell'Archivio di Stato di Agrigento,Specializzata,Ministero dei beni e delle attività culturali e del turismo. Archivio di Stato di Agrigento,Direzione generale per gli archivi,Via Mazzini,,92100
-84001,84,19,IT-AG0006,Biblioteca del Seminario vescovile,Specializzata,Seminario vescovile,Enti ecclesiastici,Piazza don Minzoni,,92100
-84001,84,19,IT-AG0007,Biblioteca comunale Franco La Rocca,Importante non specializzata,Comune di Agrigento,Comune,Piazzale Aldo Moro n. 3,,92100
-84001,84,19,IT-AG0008,Biblioteca comunale Santo Spirito. Sezione esterna di Giardina Gallotti,Pubblica,Comune di Agrigento,Comune,Via Belvedere 127,Giardina Gallotti,92010
-84003,84,19,IT-AG0010,Biblioteca comunale,Pubblica,Comune d'Aragona,Comune - Istituzione comunale,Piazza Umberto  I,,92021
-84004,84,19,IT-AG0011,Biblioteca comunale,Pubblica,Comune di Bivona,Comune,Piazza G. Marconi 43,,92010
-84007,84,19,IT-AG0012,Biblioteca comunale,Pubblica,Comune di Caltabellotta,Comune,Piazza Umberto I,,92010
-84009,84,19,IT-AG0014,Biblioteca comunale,Pubblica,Comune di Cammarata,Comune,Via dei Giardini,,92022
-84013,84,19,IT-AG0016,Biblioteca comunale,Pubblica,Comune di Castrofilippo,Comune,Via Michelangelo n. 9,,92020
-84014,84,19,IT-AG0017,Biblioteca comunale,Pubblica,Comune di Cattolica Eraclea,Comune,Via collegio,,92011
-84015,84,19,IT-AG0018,Biblioteca comunale Alessio Di Giovanni,Pubblica,Comune di Cianciana,Comune,Corso Vittorio Emanuele,,92012
-84016,84,19,IT-AG0019,Biblioteca comunale,Pubblica,Comune di Comitini,Comune,Piazza G. Bellacera 20,,92020
-84017,84,19,IT-AG0022,Biblioteca comunale Barone Antonio Mendola,Pubblica,Comune di Favara,Comune,Piazza Cavour 56,,92026
-84018,84,19,IT-AG0024,Biblioteca comunale Martin Luther King,Importante non specializzata,Comune di Grotte,Comune,Via Fonte 3,,92020
-84019,84,19,IT-AG0025,Biblioteca comunale,Pubblica,Comune di Joppolo Giancaxio,Comune,Via Torino,,92010
-84022,84,19,IT-AG0027,Biblioteca comunale Piersanti Mattarella,Pubblica,Comune di Lucca Sicula,Comune,Corso Vittorio Emanuele n. 123,,92010
-84023,84,19,IT-AG0029,Istituzione Culturale Federico II,Importante non specializzata,Comune di Menfi,Comune,Via C. Ognibene n. 4,,92013
-84024,84,19,IT-AG0030,Biblioteca comunale Antonio Gramsci,Pubblica,Comune di Montallegro,Comune,Viale della Vittoria 113,,92010
-84026,84,19,IT-AG0031,Biblioteca comunale Feliciana,Importante non specializzata,Comune di Naro,Comune,Piazza Garibaldi - Palazzo Comunale,,92028
-84032,84,19,IT-AG0033,Biblioteca comunale,Pubblica,Comune di Realmonte,Comune,Via Cosenza,,92010
-84034,84,19,IT-AG0034,Biblioteca comunale Vincenzo Navarro,Importante non specializzata,Comune di Sambuca di Sicilia,Comune,Via P. Caruso,,92017
-84035,84,19,IT-AG0036,Biblioteca comunale,Pubblica,Comune di San Biagio Platani,Comune,Corso Umberto 54,,92020
-84036,84,19,IT-AG0037,Biblioteca comunale,Pubblica,Comune di San Giovanni Gemini,Comune,Via Omero,,92020
-84039,84,19,IT-AG0038,Biblioteca comunale,Pubblica,Comune di Sant'Angelo Muxaro,Comune,Piazza Umberto I,,92020
-84038,84,19,IT-AG0039,Biblioteca comunale,Pubblica,Comune di Santa Margherita di Belice,Comune,Via Regione Siciliana n. 20,,92018
-84040,84,19,IT-AG0040,Biblioteca comunale G. Ansalone,Pubblica,Comune di Santo Stefano Quisquina,Comune,Via L. Panepinto,,92020
-84041,84,19,IT-AG0042,Biblioteca comunale Tommaso Fazello,Importante non specializzata,Comune di Sciacca,Comune,Via Roma n. 13,,92019
-84043,84,19,IT-AG0043,Biblioteca comunale Giuseppe Antonio Musso,Pubblica,Comune di Villafranca Sicula,Comune,Via Campi,,92020
-84001,84,19,IT-AG0044,Biblioteca comunale Santo Spirito. Sezione esterna di Montaperto,Pubblica,Comune di Agrigento,Comune,Presso Scuola elementare - Via S. Giuseppe,Montaperto,92010
-84001,84,19,IT-AG0045,Biblioteca comunale Santo Spirito. Sezione esterna di Villaseta,Pubblica,Comune di Agrigento,Comune,Via XX settembre,Villaseta,92100
-84002,84,19,IT-AG0051,Biblioteca comunale Falcone - Borsellino,Pubblica,Comune di Alessandria della Rocca,Comune,Piazza Luigi Ingo n. 8,,92010
-84003,84,19,IT-AG0053,Biblioteca comunale,Pubblica,Comune di Aragona,Comune,Via Palestrina,,92021
-84011,84,19,IT-AG0058,Biblioteca comunale,Pubblica,Comune di Canicatti',Comune,Via Cavallotti n. 9,,92024
-84012,84,19,IT-AG0060,Biblioteca comunale,Pubblica,Comune di Casteltermini,Comune,Via Roma 4,,92025
-84025,84,19,IT-AG0064,Biblioteca comunale,Importante non specializzata,Comune di Montevago,Comune,Piazza della Repubblica 7,,92010
-84027,84,19,IT-AG0065,Biblioteca comunale Giovanni Falcone,Importante non specializzata,Comune di Palma di Montechiaro,Comune,Via Carlo Marx n. 3,,92020
-84028,84,19,IT-AG0066,Biblioteca comunale,Pubblica,Comune di Porto Empedocle,Comune,Palazzo comunale - Via Roma,,92014
-84029,84,19,IT-AG0067,Biblioteca comunale,Pubblica,Comune di Racalmuto,Comune,Via Messana,,92020
-84029,84,19,IT-AG0068,Biblioteca popolare Virtus Matrice,Pubblica,Chiesa Madre di Racalmuto,Enti ecclesiastici,Via della Repubblica 2,,92020
-84030,84,19,IT-AG0069,Biblioteca comunale,Pubblica,Comune di Raffadali,Comune,Via Nazionale,,92015
-84031,84,19,IT-AG0070,Biblioteca comunale,Pubblica,Comune di Ravanusa,Comune,Corso della Repubblica,,92029
-84033,84,19,IT-AG0071,Biblioteca comunale Antonio Gramsci,Pubblica,Comune di Ribera,Comune,Piazza Duomo,,92016
-84037,84,19,IT-AG0072,Biblioteca comunale,Pubblica,Comune di Santa Elisabetta,Comune,Corso Umberto 45,,92020
-84001,84,19,IT-AG0078,Biblioteca della Provincia regionale di Agrigento,Specializzata,Provincia di Agrigento,Provincia,Piazzale A. Moro 3,,92100
-84001,84,19,IT-AG0079,Biblioteca comunale Santo Spirito. Sezione esterna di Fontanelle,Pubblica,Comune di Agrigento,Comune,Via Fontanelle 33  - presso Centro civico commerciale,Fontanelle,92100
-84001,84,19,IT-AG0085,Biblioteca Lucchesiana,Importante non specializzata,Deputazione dei canonici della biblioteca Lucchesiana,"Accademie, associazioni, fondazioni, istituti, societa' (privati)",Via Duomo 94,,92100
-84001,84,19,IT-AG0087,Biblioteca dell'Opera Pia Villa Betania,Pubblica,Opera Pia Villa Betania,"Accademie, associazioni, fondazioni, istituti, societa' (privati)",Via C. Marx 2,Villaseta,92100
-84021,84,19,IT-AG0089,Biblioteca comunale L. Vitali,Importante non specializzata,Comune di Licata,Comune,Piazza Progresso n. 10,,92027
-84010,84,19,IT-AG0090,Biblioteca comunale,Pubblica,Comune di Campobello di Licata,Comune,Via Sammarco 1,,92023
-84001,84,19,IT-AG0091,Biblioteca Museo Luigi Pirandello,Specializzata,Regione siciliana,Regione,Via Imera 50,,92100
-84017,84,19,IT-AG0092,Biblioteca della Comunità Cristiani nel mondo,NON SPECIFICATA,0,NON SPECIFICATA,Via Piersanti Mattorella 2,,92026
-84029,84,19,IT-AG0093,Biblioteca della Fondazione Leonardo Sciascia,Specializzata,Fondazione Leonardo Sciascia,"Accademie, associazioni, fondazioni, istituti (pubblici)","V.le della vittoria, 3",,92020
-84001,84,19,IT-AG0094,Biblioteca Verba volant,Scolastica,"Ministero dell'istruzione, dell'università e della ricerca",Presidenza del consiglio dei ministri e ministeri,Via Acrone 23,,92100
-84001,84,19,IT-AG0095,Biblioteca dell'Istituto Comprensivo Anna Frank,Scolastica,"Ministero dell'istruzione, dell'università e della ricerca",Presidenza del consiglio dei ministri e ministeri,"Via Matteo Cimarra, 5/a",,92100
-84001,84,19,IT-AG0096,Biblioteca del Circolo didattico S.G. Bosco,NON SPECIFICATA,0,NON SPECIFICATA,Via Dante 258,,92100
-84001,84,19,IT-AG0097,Biblioteca dell'Istituto professionale per i servizi commerciali e turistici Nicolò Gallo,Scolastica,"Ministero dell'istruzione, dell'università e della ricerca",Presidenza del consiglio dei ministri e ministeri,Via Regione siciliana,,92100
-84008,84,19,IT-AG0098,Biblioteca comunale,Pubblica,Comune di Camastra,Comune,Via Vittorio Veneto,,92020
-84011,84,19,IT-AG0099,Biblioteca della Fondazione Giovanni Guarino Amella,Specializzata,Fondazione Giovanni Guarino Amella,"Accademie, associazioni, fondazioni, istituti, societa' (privati)",Contrada Montagna c.p. 1311,Villa del Buon Riposo,64100
-84001,84,19,IT-AG0134,Biblioteca del Polo didattico di Agrigento. Università degli studi di Palermo,Istituto di insegnamento superiore,Università degli studi di Palermo,Universita' statali,Via Ugo La Malfa,,92100
-6001,6,1,IT-AL0001,Biblioteca civica,Pubblica,Comune di Acqui Terme,Comune,Via Maggiorino Ferraris 15,,15011
-6003,6,1,IT-AL0002,Biblioteca civica Francesca Calvo,Importante non specializzata,Comune di Alessandria,Comune,"Piazza Vittorio Veneto, 1",,15121
-6003,6,1,IT-AL0003,Biblioteca dell'Archivio di Stato di Alessandria,Specializzata,Ministero dei beni e delle attività culturali e del turismo. Archivio di Stato di Alessandria,Direzione generale per gli archivi,Via G. Solero 43,,15100
-6003,6,1,IT-AL0004,Biblioteca storica diocesana del Seminario vescovile,Importante non specializzata,Seminario Diocesano,Enti ecclesiastici,"Via Inviziati, 1",,15121
-6003,6,1,IT-AL0006,"Biblioteca delle Societa' di storia, arte e archeologia per le province di Alessandria e Asti",Specializzata,"Societa' di storia, arte e archeologia per le province di Alessandria e Asti","Accademie, associazioni, fondazioni, istituti (pubblici)",Via Plana 42,,15100
-6003,6,1,IT-AL0007,"Biblioteca della Camera di commercio, industria, artigianato e agricoltura - CCIAA",Specializzata,"Camera di commercio, industria, artigianato e agricoltura - CCIAA di Alessandria","Camere di commercio, industria, artigianato",Via San Lorenzo 21,,15100
-6004,6,1,IT-AL0008,Biblioteca civica,Pubblica,Comune di Alfiano Natta,Comune,Via Roma 6,,15021
-6009,6,1,IT-AL0011,Biblioteca civica,Pubblica,Comune di Arquata Scrivia,Comune,Piazza S. Bertelli 21,,15061
-6013,6,1,IT-AL0013,Biblioteca civica,Pubblica,Comune di Bassignana,Comune,Via Cavour 6,,15042
-6017,6,1,IT-AL0014,Biblioteca civica,Pubblica,Comune di Bistagno,Comune,Corso Carlo Testa 3,,15012
-6018,6,1,IT-AL0015,Biblioteca civica,Pubblica,Comune di Borghetto di Borbera,Comune,"Piazza Europa, 13",,15060
-6021,6,1,IT-AL0016,Biblioteca civica Pio e Ildegarda Occella,Pubblica,Comune di Bosco Marengo,Comune,Via L. Verde,,15062
-6022,6,1,IT-AL0017,Biblioteca civica,Pubblica,Comune di Bosio,Comune,Via Umberto I  50,,15060
-6033,6,1,IT-AL0020,Biblioteca civica Ferrero,Pubblica,Comune di Carpeneto,Comune,Piazza Municipio 6,,15071
-6037,6,1,IT-AL0021,Biblioteca civica Fedele Barco,Pubblica,Comune di Casal Cermelli,Comune,Piazza San Carlo 8,,15072
-6039,6,1,IT-AL0024,Biblioteca del Seminario vescovile,Importante non specializzata,"Fondazione Biblioteca del Seminario""""",Enti ecclesiastici,"Piazza Calabiana, 1",,15033
-6042,6,1,IT-AL0026,Biblioteca civica,Pubblica,Comune di Cassano Spinola,Comune,Piazza XXVI Aprile 8,,15063
-6043,6,1,IT-AL0027,Biblioteca civica,Pubblica,Comune di Cassine,Comune,Via IV Marzo 13/a,,15016
-6046,6,1,IT-AL0029,Biblioteca civica,Pubblica,Comune di Castellar Guidobono,Comune,Piazza San Tommaso 1,,15050
-6047,6,1,IT-AL0030,Biblioteca civica Francesco Poggio,Pubblica,Comune di Castellazzo Bormida,Comune,Via XXV Aprile 44,,15073
-6049,6,1,IT-AL0031,Biblioteca civica,Pubblica,Comune di Castelletto d'Orba,Comune,Piazza G. Marconi 1,,15060
-6052,6,1,IT-AL0032,Biblioteca civica,Pubblica,Comune di Castelnuovo Bormida,Comune,Via Roma 42,,15017
-6053,6,1,IT-AL0033,Biblioteca civica Pier Angelo Soldini,Pubblica,Comune di Castelnuovo Scrivia,Comune,Via G. Garibaldi 49,,15053
-6054,6,1,IT-AL0034,Biblioteca civica,Pubblica,Comune di Castelspina,Comune,Piazza Boccasso 3,,15070
-6056,6,1,IT-AL0036,Biblioteca civica,Pubblica,Comune di Cella Monte,Comune,Via Francia 12,,15034
-6057,6,1,IT-AL0037,Biblioteca civica,Pubblica,Comune di Cereseto,Comune,Via Roma 32,,15020
-6061,6,1,IT-AL0038,Biblioteca civica,Pubblica,Comune di Conzano,Comune,Via C. Vidua 10,,15030
-6073,6,1,IT-AL0039,Biblioteca civica,Pubblica,Comune di Frassineto Po,Comune,Piazza del Municipio 6,,15040
-6075,6,1,IT-AL0040,Biblioteca civica,Pubblica,Comune di Frugarolo,Comune,Via San Pio V,,15065
-6076,6,1,IT-AL0041,Biblioteca civica,Pubblica,Comune di Fubine,Comune,Via Pavaranza 2,,15043
-6077,6,1,IT-AL0042,Biblioteca civica Giovanni Canna,Pubblica,Comune di Gabiano,Comune,Piazza Europa 4,,15020
-6081,6,1,IT-AL0046,Biblioteca civica Giuseppe Boffito,Pubblica,Comune di Gavi,Comune,Via G. Garibaldi 44,,15066
-6082,6,1,IT-AL0047,Biblioteca civica,Pubblica,Comune di Giarole,Comune,Via Vittorio Emanuele II  2,,15036
-6094,6,1,IT-AL0048,Biblioteca civica,Pubblica,Comune di Mirabello Monferrato,Comune,Piazza G. Marconi 17,,15040
-6095,6,1,IT-AL0049,Biblioteca del Santuario di Nostra Signora delle Rocche,Specializzata,Passionisti. Santuario di Nostra Signora delle Rocche,Enti ecclesiastici,Santuario delle Rocche,,15074
-6095,6,1,IT-AL0050,Biblioteca civica,Pubblica,Comune di Molare,Comune,Via Raggi 25,,15074
-6104,6,1,IT-AL0053,Biblioteca civica,Pubblica,Comune di Montaldo Bormida,Comune,Piazza Giovanni XXIII,,15010
-6106,6,1,IT-AL0054,Biblioteca civica,Pubblica,Comune di Montechiaro d'Acqui,Comune,Via Nazionale 14,,15010
-6109,6,1,IT-AL0055,Biblioteca civica Giuseppe Piotta,Pubblica,Comune di Morano sul Po,Comune,Via G. Marconi 1,,15025
+Comune,Provincia,Regione,Codice isil,Denominazione,Tipologia funzionale,Denominazione ente,Tipologia amministrativa
+84001,84,19,IT-AG0001,Biblioteca della Soprintendenza per i beni culturali e ambientali Pirro Marconi,Specializzata,Regione siciliana. Soprintendenza per i beni culturali e ambientali,Regione
+84001,84,19,IT-AG0005,Biblioteca dell'Archivio di Stato di Agrigento,Specializzata,Ministero dei beni e delle attività culturali e del turismo. Archivio di Stato di Agrigento,Direzione generale per gli archivi
+84001,84,19,IT-AG0006,Biblioteca del Seminario vescovile,Specializzata,Seminario vescovile,Enti ecclesiastici
+84001,84,19,IT-AG0007,Biblioteca comunale Franco La Rocca,Importante non specializzata,Comune di Agrigento,Comune
+84001,84,19,IT-AG0008,Biblioteca comunale Santo Spirito. Sezione esterna di Giardina Gallotti,Pubblica,Comune di Agrigento,Comune
+84003,84,19,IT-AG0010,Biblioteca comunale,Pubblica,Comune d'Aragona,Comune - Istituzione comunale
+84004,84,19,IT-AG0011,Biblioteca comunale,Pubblica,Comune di Bivona,Comune
+84007,84,19,IT-AG0012,Biblioteca comunale,Pubblica,Comune di Caltabellotta,Comune
+84009,84,19,IT-AG0014,Biblioteca comunale,Pubblica,Comune di Cammarata,Comune
+84013,84,19,IT-AG0016,Biblioteca comunale,Pubblica,Comune di Castrofilippo,Comune
+84014,84,19,IT-AG0017,Biblioteca comunale,Pubblica,Comune di Cattolica Eraclea,Comune
+84015,84,19,IT-AG0018,Biblioteca comunale Alessio Di Giovanni,Pubblica,Comune di Cianciana,Comune
+84016,84,19,IT-AG0019,Biblioteca comunale,Pubblica,Comune di Comitini,Comune
+84017,84,19,IT-AG0022,Biblioteca comunale Barone Antonio Mendola,Pubblica,Comune di Favara,Comune
+84018,84,19,IT-AG0024,Biblioteca comunale Martin Luther King,Importante non specializzata,Comune di Grotte,Comune
+84019,84,19,IT-AG0025,Biblioteca comunale,Pubblica,Comune di Joppolo Giancaxio,Comune
+84022,84,19,IT-AG0027,Biblioteca comunale Piersanti Mattarella,Pubblica,Comune di Lucca Sicula,Comune
+84023,84,19,IT-AG0029,Istituzione Culturale Federico II,Importante non specializzata,Comune di Menfi,Comune
+84024,84,19,IT-AG0030,Biblioteca comunale Antonio Gramsci,Pubblica,Comune di Montallegro,Comune
+84026,84,19,IT-AG0031,Biblioteca comunale Feliciana,Importante non specializzata,Comune di Naro,Comune
+84032,84,19,IT-AG0033,Biblioteca comunale,Pubblica,Comune di Realmonte,Comune
+84034,84,19,IT-AG0034,Biblioteca comunale Vincenzo Navarro,Importante non specializzata,Comune di Sambuca di Sicilia,Comune
+84035,84,19,IT-AG0036,Biblioteca comunale,Pubblica,Comune di San Biagio Platani,Comune
+84036,84,19,IT-AG0037,Biblioteca comunale,Pubblica,Comune di San Giovanni Gemini,Comune
+84039,84,19,IT-AG0038,Biblioteca comunale,Pubblica,Comune di Sant'Angelo Muxaro,Comune
+84038,84,19,IT-AG0039,Biblioteca comunale,Pubblica,Comune di Santa Margherita di Belice,Comune
+84040,84,19,IT-AG0040,Biblioteca comunale G. Ansalone,Pubblica,Comune di Santo Stefano Quisquina,Comune
+84041,84,19,IT-AG0042,Biblioteca comunale Tommaso Fazello,Importante non specializzata,Comune di Sciacca,Comune
+84043,84,19,IT-AG0043,Biblioteca comunale Giuseppe Antonio Musso,Pubblica,Comune di Villafranca Sicula,Comune
+84001,84,19,IT-AG0044,Biblioteca comunale Santo Spirito. Sezione esterna di Montaperto,Pubblica,Comune di Agrigento,Comune
+84001,84,19,IT-AG0045,Biblioteca comunale Santo Spirito. Sezione esterna di Villaseta,Pubblica,Comune di Agrigento,Comune
+84002,84,19,IT-AG0051,Biblioteca comunale Falcone - Borsellino,Pubblica,Comune di Alessandria della Rocca,Comune
+84003,84,19,IT-AG0053,Biblioteca comunale,Pubblica,Comune di Aragona,Comune
+84011,84,19,IT-AG0058,Biblioteca comunale,Pubblica,Comune di Canicatti',Comune
+84012,84,19,IT-AG0060,Biblioteca comunale,Pubblica,Comune di Casteltermini,Comune
+84025,84,19,IT-AG0064,Biblioteca comunale,Importante non specializzata,Comune di Montevago,Comune
+84027,84,19,IT-AG0065,Biblioteca comunale Giovanni Falcone,Importante non specializzata,Comune di Palma di Montechiaro,Comune
+84028,84,19,IT-AG0066,Biblioteca comunale,Pubblica,Comune di Porto Empedocle,Comune
+84029,84,19,IT-AG0067,Biblioteca comunale,Pubblica,Comune di Racalmuto,Comune
+84029,84,19,IT-AG0068,Biblioteca popolare Virtus Matrice,Pubblica,Chiesa Madre di Racalmuto,Enti ecclesiastici
+84030,84,19,IT-AG0069,Biblioteca comunale,Pubblica,Comune di Raffadali,Comune
+84031,84,19,IT-AG0070,Biblioteca comunale,Pubblica,Comune di Ravanusa,Comune
+84033,84,19,IT-AG0071,Biblioteca comunale Antonio Gramsci,Pubblica,Comune di Ribera,Comune
+84037,84,19,IT-AG0072,Biblioteca comunale,Pubblica,Comune di Santa Elisabetta,Comune
+84001,84,19,IT-AG0078,Biblioteca della Provincia regionale di Agrigento,Specializzata,Provincia di Agrigento,Provincia
+84001,84,19,IT-AG0079,Biblioteca comunale Santo Spirito. Sezione esterna di Fontanelle,Pubblica,Comune di Agrigento,Comune
+84001,84,19,IT-AG0085,Biblioteca Lucchesiana,Importante non specializzata,Deputazione dei canonici della biblioteca Lucchesiana,Accademie
+84001,84,19,IT-AG0087,Biblioteca dell'Opera Pia Villa Betania,Pubblica,Opera Pia Villa Betania,Accademie
+84021,84,19,IT-AG0089,Biblioteca comunale L. Vitali,Importante non specializzata,Comune di Licata,Comune
+84010,84,19,IT-AG0090,Biblioteca comunale,Pubblica,Comune di Campobello di Licata,Comune
+84001,84,19,IT-AG0091,Biblioteca Museo Luigi Pirandello,Specializzata,Regione siciliana,Regione
+84017,84,19,IT-AG0092,Biblioteca della Comunità Cristiani nel mondo,NON SPECIFICATA,0,NON SPECIFICATA
+84029,84,19,IT-AG0093,Biblioteca della Fondazione Leonardo Sciascia,Specializzata,Fondazione Leonardo Sciascia,Accademie
+84001,84,19,IT-AG0094,Biblioteca Verba volant,Scolastica,Ministero dell'istruzione,Presidenza del consiglio dei ministri e ministeri
+84001,84,19,IT-AG0095,Biblioteca dell'Istituto Comprensivo Anna Frank,Scolastica,Ministero dell'istruzione,Presidenza del consiglio dei ministri e ministeri
+84001,84,19,IT-AG0096,Biblioteca del Circolo didattico S.G. Bosco,NON SPECIFICATA,0,NON SPECIFICATA
+84001,84,19,IT-AG0097,Biblioteca dell'Istituto professionale per i servizi commerciali e turistici Nicolò Gallo,Scolastica,Ministero dell'istruzione,Presidenza del consiglio dei ministri e ministeri
+84008,84,19,IT-AG0098,Biblioteca comunale,Pubblica,Comune di Camastra,Comune
+84011,84,19,IT-AG0099,Biblioteca della Fondazione Giovanni Guarino Amella,Specializzata,Fondazione Giovanni Guarino Amella,Accademie
+84001,84,19,IT-AG0134,Biblioteca del Polo didattico di Agrigento. Università degli studi di Palermo,Istituto di insegnamento superiore,Università degli studi di Palermo,Universita' statali
+6001,6,1,IT-AL0001,Biblioteca civica,Pubblica,Comune di Acqui Terme,Comune
+6003,6,1,IT-AL0002,Biblioteca civica Francesca Calvo,Importante non specializzata,Comune di Alessandria,Comune
+6003,6,1,IT-AL0003,Biblioteca dell'Archivio di Stato di Alessandria,Specializzata,Ministero dei beni e delle attività culturali e del turismo. Archivio di Stato di Alessandria,Direzione generale per gli archivi
+6003,6,1,IT-AL0004,Biblioteca storica diocesana del Seminario vescovile,Importante non specializzata,Seminario Diocesano,Enti ecclesiastici
+6003,6,1,IT-AL0006,Biblioteca delle Societa' di storia arte e archeologia per le province di Alessandria e Asti,Specializzata,Societa' di storia,Accademie
+6003,6,1,IT-AL0007,Biblioteca della Camera di commercio industria artigianato e agricoltura - CCIAA,Specializzata,Camera di commercio,Camere di commercio
+6004,6,1,IT-AL0008,Biblioteca civica,Pubblica,Comune di Alfiano Natta,Comune
+6009,6,1,IT-AL0011,Biblioteca civica,Pubblica,Comune di Arquata Scrivia,Comune
+6013,6,1,IT-AL0013,Biblioteca civica,Pubblica,Comune di Bassignana,Comune
+6017,6,1,IT-AL0014,Biblioteca civica,Pubblica,Comune di Bistagno,Comune
+6018,6,1,IT-AL0015,Biblioteca civica,Pubblica,Comune di Borghetto di Borbera,Comune
+6021,6,1,IT-AL0016,Biblioteca civica Pio e Ildegarda Occella,Pubblica,Comune di Bosco Marengo,Comune
+6022,6,1,IT-AL0017,Biblioteca civica,Pubblica,Comune di Bosio,Comune
+6033,6,1,IT-AL0020,Biblioteca civica Ferrero,Pubblica,Comune di Carpeneto,Comune
+6037,6,1,IT-AL0021,Biblioteca civica Fedele Barco,Pubblica,Comune di Casal Cermelli,Comune
+6039,6,1,IT-AL0024,Biblioteca del Seminario vescovile,Importante non specializzata,"Fondazione Biblioteca del Seminario""""",Enti ecclesiastici
+6042,6,1,IT-AL0026,Biblioteca civica,Pubblica,Comune di Cassano Spinola,Comune
+6043,6,1,IT-AL0027,Biblioteca civica,Pubblica,Comune di Cassine,Comune
+6046,6,1,IT-AL0029,Biblioteca civica,Pubblica,Comune di Castellar Guidobono,Comune
+6047,6,1,IT-AL0030,Biblioteca civica Francesco Poggio,Pubblica,Comune di Castellazzo Bormida,Comune
+6049,6,1,IT-AL0031,Biblioteca civica,Pubblica,Comune di Castelletto d'Orba,Comune
+6052,6,1,IT-AL0032,Biblioteca civica,Pubblica,Comune di Castelnuovo Bormida,Comune
+6053,6,1,IT-AL0033,Biblioteca civica Pier Angelo Soldini,Pubblica,Comune di Castelnuovo Scrivia,Comune
+6054,6,1,IT-AL0034,Biblioteca civica,Pubblica,Comune di Castelspina,Comune
+6056,6,1,IT-AL0036,Biblioteca civica,Pubblica,Comune di Cella Monte,Comune
+6057,6,1,IT-AL0037,Biblioteca civica,Pubblica,Comune di Cereseto,Comune
+6061,6,1,IT-AL0038,Biblioteca civica,Pubblica,Comune di Conzano,Comune
+6073,6,1,IT-AL0039,Biblioteca civica,Pubblica,Comune di Frassineto Po,Comune
+6075,6,1,IT-AL0040,Biblioteca civica,Pubblica,Comune di Frugarolo,Comune
+6076,6,1,IT-AL0041,Biblioteca civica,Pubblica,Comune di Fubine,Comune
+6077,6,1,IT-AL0042,Biblioteca civica Giovanni Canna,Pubblica,Comune di Gabiano,Comune
+6081,6,1,IT-AL0046,Biblioteca civica Giuseppe Boffito,Pubblica,Comune di Gavi,Comune
+6082,6,1,IT-AL0047,Biblioteca civica,Pubblica,Comune di Giarole,Comune
+6094,6,1,IT-AL0048,Biblioteca civica,Pubblica,Comune di Mirabello Monferrato,Comune
+6095,6,1,IT-AL0049,Biblioteca del Santuario di Nostra Signora delle Rocche,Specializzata,Passionisti. Santuario di Nostra Signora delle Rocche,Enti ecclesiastici
+6095,6,1,IT-AL0050,Biblioteca civica,Pubblica,Comune di Molare,Comune
+6104,6,1,IT-AL0053,Biblioteca civica,Pubblica,Comune di Montaldo Bormida,Comune
+6106,6,1,IT-AL0054,Biblioteca civica,Pubblica,Comune di Montechiaro d'Acqui,Comune
