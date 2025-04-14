@@ -158,35 +158,39 @@ public class Main {
 
                     case 10:
                         String fileHTML = "src/biblioteche.html";
-                        scrittore = new BufferedWriter(new FileWriter(fileHTML));
-                        lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                        try {
+                            lettore = new BufferedReader(new FileReader(fileCSVModificato));
+                            scrittore = new BufferedWriter(new FileWriter(fileHTML));
 
-                        scrittore.write("<!DOCTYPE html>\n");
-                        scrittore.write("<html>\n");
-                        scrittore.write("<head>\n<title>Elenco Biblioteche</title>\n</head>\n");
-                        scrittore.write("<body>\n");
-                        scrittore.write("<h1>Elenco delle Biblioteche</h1>\n");
-                        scrittore.write("<table border='1'>\n");
+                            scrittore.write("<!DOCTYPE html>\n");
+                            scrittore.write("<html>\n");
+                            scrittore.write("<head>\n<title>Elenco Biblioteche</title>\n</head>\n");
+                            scrittore.write("<body>\n");
+                            scrittore.write("<h1>Elenco delle Biblioteche</h1>\n");
+                            scrittore.write("<table border='1'>\n");
 
-                        boolean primaRigaHTML = true;
-                        while ((riga = lettore.readLine()) != null) {
-                            String[] campi = riga.split(separatoreCSV);
-                            scrittore.write("<tr>\n");
-                            for (String campo : campi) {
-                                if (primaRigaHTML) {
-                                    scrittore.write("<th>" + campo + "</th>\n");
-                                } else {
-                                    scrittore.write("<td>" + campo + "</td>\n");
+                            boolean primaRigaHTML = true;
+                            while ((riga = lettore.readLine()) != null) {
+                                String[] campi = riga.split(separatoreCSV);
+                                scrittore.write("<tr>\n");
+                                for (String campo : campi) {
+                                    if (primaRigaHTML) {
+                                        scrittore.write("<th>" + campo + "</th>\n");
+                                    } else {
+                                        scrittore.write("<td>" + campo + "</td>\n");
+                                    }
                                 }
+                                scrittore.write("</tr>\n");
+                                primaRigaHTML = false;
                             }
-                            scrittore.write("</tr>\n");
-                            primaRigaHTML = false;
-                        }
 
-                        scrittore.write("</table>\n");
-                        scrittore.write("</body>\n");
-                        scrittore.write("</html>\n");
-                        System.out.println("File HTML creato con successo: " + fileHTML);
+                            scrittore.write("</table>\n");
+                            scrittore.write("</body>\n");
+                            scrittore.write("</html>\n");
+                            System.out.println("File HTML creato con successo: " + fileHTML);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         break;
 
                     case 0:
